@@ -1,11 +1,13 @@
 {
-  "id": "tb2ev13",
+  "id": "torchbearer",
   "title": "Torchbearer",
   "description": "The Torchbearer system for FoundryVTT!",
-  "version": "1.1.0",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "0.8.9",
-  "templateVersion": 2,
+  "version": "1.1.1",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 13,
+    "maximum": 13
+  },
   "author": "yougotnick",
   "esmodules": ["main.bundle.js"],
   "styles": ["styles/main.css"],
@@ -88,7 +90,7 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "url": "https://github.com/argonaut76/torchbearer",
-  "manifest": "https://raw.githubusercontent.com/argonaut76/torchbearer/refs/heads/master/system.json",
-  "download": "https://github.com/argonaut76/torchbearer/releases/tag/1.1.1/torchbearer-foundryvtt-1.1.0.zip",
+  "manifest": "https://raw.githubusercontent.com/argonaut76/torchbearer/master/system.json",
+  "download": "https://github.com/argonaut76/torchbearer/releases/download/v1.1.1/system.zip",
   "license": "LICENSE.txt"
 }
